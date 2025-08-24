@@ -15,7 +15,8 @@ class MyObject {
     @Override
     @Deprecated
     protected void finalize() throws Throwable {
-        System.out.println("*** " + name + " is being garbage collected ***");
+        System.out.println( + name + " is being garbage collected ");
         super.finalize();
     }
 }
+
